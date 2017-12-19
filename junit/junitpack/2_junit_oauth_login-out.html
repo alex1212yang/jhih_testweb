@@ -1,0 +1,31 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from junit_oauth_login</title>
+</head>
+<body>
+<pre>0.keyin Email address: Null = pass
+0_1.keyin Password: Null = pass
+1.keyin Email address: Abnormal a@a = pass
+1_1.keyin Email address: Abnormal a@a.c = pass
+1_2.keyin Email address: Abnormal a@@a.c2c = pass
+1_3.keyin Email address: Abnormal a@a@a.cc = pass
+1_4.keyin Email address: Abnormal aa.cc = pass
+1_5.keyin Email address: Abnormal abcd = pass
+2.keyin error password = pass
+3.keyin less than 8 characters password = pass
+4.keyin 1~8 password = pass
+5.keyin over 20 characters = pass
+6.The e-mail format incorrect = pass
+7.Enter resend email page = pass
+8.Enter resend email page - Null = pass
+9.Enter resend email page - a@a = pass
+9_1.Enter resend email page - a@a.c = pass
+9_2.Enter resend email page - a@@a.c2c = pass
+9_3.Enter resend email page - a@a@a.cc = pass
+9_4.Enter resend email page - aa.cc = pass
+9_5.Enter resend email page - abcd = pass
+10.Enter resend email page - right account = pass
+</pre>
+</body>
+</html>

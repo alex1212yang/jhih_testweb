@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="junitproject_kalay_vsaas_3.0">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+    </path>
+    <path id="junitproject_kalay_vsaas_3.0.classpath">
+        <pathelement location="bin"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+        <pathelement location="lib/cglib-nodep-3.2.4.jar"/>
+        <pathelement location="lib/client-combined-3.0.1-nodeps.jar"/>
+        <pathelement location="lib/commons-codec-1.10.jar"/>
+        <pathelement location="lib/commons-exec-1.3.jar"/>
+        <pathelement location="lib/commons-io-2.5.jar"/>
+        <pathelement location="lib/commons-lang3-3.4.jar"/>
+        <pathelement location="lib/commons-logging-1.2.jar"/>
+        <pathelement location="lib/cssparser-0.9.20.jar"/>
+        <pathelement location="lib/gson-2.3.1.jar"/>
+        <pathelement location="lib/guava-19.0.jar"/>
+        <pathelement location="lib/hamcrest-core-1.3.jar"/>
+        <pathelement location="lib/hamcrest-library-1.3.jar"/>
+        <pathelement location="lib/htmlunit-2.23.jar"/>
+        <pathelement location="lib/htmlunit-core-js-2.23.jar"/>
+        <pathelement location="lib/httpclient-4.5.2.jar"/>
+        <pathelement location="lib/httpcore-4.4.4.jar"/>
+        <pathelement location="lib/httpmime-4.5.2.jar"/>
+        <pathelement location="lib/javax.servlet-api-3.1.0.jar"/>
+        <pathelement location="lib/jetty-io-9.2.13.v20150730.jar"/>
+        <pathelement location="lib/jetty-util-9.2.13.v20150730.jar"/>
+        <pathelement location="lib/jna-4.1.0.jar"/>
+        <pathelement location="lib/jna-platform-4.1.0.jar"/>
+        <pathelement location="lib/junit-4.12.jar"/>
+        <pathelement location="lib/neko-htmlunit-2.23.jar"/>
+        <pathelement location="lib/netty-3.5.7.Final.jar"/>
+        <pathelement location="lib/phantomjsdriver-1.3.0.jar"/>
+        <pathelement location="lib/sac-1.3.jar"/>
+        <pathelement location="lib/selenium-java-2.53.0.jar"/>
+        <pathelement location="lib/selenium-java-2.53.0-srcs.jar"/>
+        <pathelement location="lib/serializer-2.7.2.jar"/>
+        <pathelement location="lib/websocket-api-9.2.15.v20160210.jar"/>
+        <pathelement location="lib/websocket-client-9.2.15.v20160210.jar"/>
+        <pathelement location="lib/websocket-common-9.2.15.v20160210.jar"/>
+        <pathelement location="lib/xalan-2.7.2.jar"/>
+        <pathelement location="lib/xercesImpl-2.11.0.jar"/>
+        <pathelement location="lib/xml-apis-1.4.01.jar"/>
+        <pathelement location="lib/selenium-html-runner-3.0.1.jar"/>
+        <pathelement location="lib/selenium-server-standalone-3.3.1.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="junitproject_kalay_vsaas_3.0">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.AllTests" todir="${junit.output.dir}"/>
+            <test name="junitpack.ScreenshotTests" todir="${junit.output.dir}"/>
+            <test name="junitpack.WEB_Mutidevice" todir="${junit.output.dir}"/>
+            <test name="junitpack.junit_add_camera" todir="${junit.output.dir}"/>
+            <test name="junitpack.junit_camera_setting" todir="${junit.output.dir}"/>
+            <test name="junitpack.junit_oauth_account_setting" todir="${junit.output.dir}"/>
+            <test name="junitpack.junit_oauth_create_account" todir="${junit.output.dir}"/>
+            <test name="junitpack.junit_oauth_login" todir="${junit.output.dir}"/>
+            <test name="junitpack.junit_purchase_plan" todir="${junit.output.dir}"/>
+            <test name="junitpack.junit_webpage_response_time" todir="${junit.output.dir}"/>
+            <test name="junitpack.test" todir="${junit.output.dir}"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_add_camera (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_add_camera" todir="${junit.output.dir}"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_camera_setting (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_camera_setting" todir="${junit.output.dir}"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_oauth_account_setting (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_oauth_account_setting" todir="${junit.output.dir}"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_oauth_create_account (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_oauth_create_account" todir="${junit.output.dir}"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_oauth_login (2)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_oauth_login" todir="${junit.output.dir}"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_purchase_plan (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_purchase_plan" todir="${junit.output.dir}"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junit_webpage_response_time">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.junit_webpage_response_time" todir="${junit.output.dir}"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="ScreenshotTests (2)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.ScreenshotTests" todir="${junit.output.dir}"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="test (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.test" todir="${junit.output.dir}"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="WEB_Mutidevice (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="junitpack.WEB_Mutidevice" todir="${junit.output.dir}"/>
+            <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="4" failures="0" hostname="TPE-Alex-Yang" id="0" name="AllTests" package="junitpack" skipped="0" tests="4" time="21.368" timestamp="2017-12-19T05:44:47">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="TUTK" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/Users/alexyang/Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_74\lib\resources.jar;C:\Program Files\Java\jre1.8.0_74\lib\rt.jar;C:\Program Files\Java\jre1.8.0_74\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_74\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_74\lib\jce.jar;C:\Program Files\Java\jre1.8.0_74\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_74\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_74\classes" />
+
+          <property name="ant.file.type.junitproject_kalay_vsaas_3.0" value="file" />
+
+          <property name="env.COMPUTERNAME" value="TPE-ALEX-YANG" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_74-b02" />
+
+          <property name="env.HOMEPATH" value="\Users\alexyang" />
+
+          <property name="user.name" value="alex_yang" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_74\bin" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.project.name" value="junitproject_kalay_vsaas_3.0" />
+
+          <property name="java.version" value="1.8.0_74" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.asl.log" value="Destination=file" />
+
+          <property name="env.TEMP" value="C:\Users\alexyang\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_74\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="MS950" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="ECLIPSE_HOME" value="D:/eclipse-jee-mars-2-win32-x86_64/eclipse/" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="TW" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_74" />
+
+          <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.ANDROID_HOME" value="D:\sdk\android-sdk_r24.4.1-windows" />
+
+          <property name="env.APPDATA" value="C:\Users\alexyang\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\build.xml" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.74-b02" />
+
+          <property name="env.USERPROFILE" value="C:\Users\alexyang" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_74" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\alexyang\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="ant.file.junitproject_kalay_vsaas_3.0" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\build.xml" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/Users/alexyang/Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+
+          <property name="user.home" value="C:\Users\alexyang" />
+
+          <property name="target" value="1.8" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_74\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_74/bin/server;C:/Program Files/Java/jre1.8.0_74/bin;C:/Program Files/Java/jre1.8.0_74/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;D:\sdk\android-sdk_r24.4.1-windows\tools;D:\sdk\android-sdk_r24.4.1-windows\platform-tools;C:\Program Files\Java\jdk1.8.0_74\bin;C:\Users\alexyang\AppData\Roaming\npm;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse;;." />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="env.USERDNSDOMAIN" value="TUTK.COM" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="java.class.path" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\bin;D:\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar;D:\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\cglib-nodep-3.2.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\client-combined-3.0.1-nodeps.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-codec-1.10.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-exec-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-io-2.5.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-lang3-3.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-logging-1.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\cssparser-0.9.20.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\gson-2.3.1.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\guava-19.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\hamcrest-core-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\hamcrest-library-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\htmlunit-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\htmlunit-core-js-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpclient-4.5.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpcore-4.4.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpmime-4.5.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\javax.servlet-api-3.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jetty-io-9.2.13.v20150730.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jetty-util-9.2.13.v20150730.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jna-4.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jna-platform-4.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\junit-4.12.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\neko-htmlunit-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\netty-3.5.7.Final.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\phantomjsdriver-1.3.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\sac-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-java-2.53.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-java-2.53.0-srcs.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-server-standalone-3.0.1.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\serializer-2.7.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-api-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-client-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-common-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xalan-2.7.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xercesImpl-2.11.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xml-apis-1.4.01.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner junitpack.AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\junit\TEST-junitpack.AllTests.xml crashfile=C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\junitvmwatcher6753279693667549937.properties propsfile=C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\junit2160406308972639586.properties" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.LOGONSERVER" value="\\TUTKDCCC" />
+
+          <property name="env.windir" value="C:\WINDOWS" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="env.ANT_HOME" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.io.tmpdir" value="C:\Users\alexyang\AppData\Local\Temp\" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/Users/alexyang/Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\WINDOWS" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_74\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\alexyang\AppData\Local" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_74/bin/server;C:/Program Files/Java/jre1.8.0_74/bin;C:/Program Files/Java/jre1.8.0_74/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;D:\sdk\android-sdk_r24.4.1-windows\tools;D:\sdk\android-sdk_r24.4.1-windows\platform-tools;C:\Program Files\Java\jdk1.8.0_74\bin;C:\Users\alexyang\AppData\Roaming\npm;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse;" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\alexyang\AppData\Local\Temp\null1074119964" />
+
+          <property name="basedir" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="alex_yang" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="source" value="1.8" />
+
+          <property name="file.encoding" value="MS950" />
+
+          <property name="env.USERDOMAIN" value="TUTK" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,junitproject_kalay_vsaas_3.0,junit_oauth_login" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="junitpack.junit_add_camera" name="Add_Camera" time="6.203">
+          <error message="unknown error: cannot get automation extension&#xa;from chrome not reachable&#xa;  (Session info: chrome=63.0.3239.84)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 2.65 seconds&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;&#xa;System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\alexyang\AppData\Local\Temp\scoped_dir8556_11197}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: fe04e3914dcc8d5820649f20d8277fea" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from chrome not reachable
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.65 seconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\alexyang\AppData\Local\Temp\scoped_dir8556_11197}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fe04e3914dcc8d5820649f20d8277fea
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:882)
+	at junitpack.junit_add_camera.Add_Camera(junit_add_camera.java:42)
+</error>
+
+      </testcase>
+
+      <testcase classname="junitpack.junit_purchase_plan" name="Purchase_Plan" time="8.415">
+          <error message="unknown error: cannot get automation extension&#xa;from chrome not reachable&#xa;  (Session info: chrome=63.0.3239.84)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 6.27 seconds&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;&#xa;System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\alexyang\AppData\Local\Temp\scoped_dir11176_26380}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 896b7270bde0dacb0d054cd23c1ccbdf" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from chrome not reachable
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.27 seconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\alexyang\AppData\Local\Temp\scoped_dir11176_26380}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 896b7270bde0dacb0d054cd23c1ccbdf
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:882)
+	at junitpack.junit_purchase_plan.Purchase_Plan(junit_purchase_plan.java:50)
+</error>
+
+      </testcase>
+
+      <testcase classname="junitpack.junit_camera_setting" name="Camera_Setting" time="0.002">
+          <error message="The driver executable does not exist: C:\Users\alexyang\Desktop\ChromeDriver.exe" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\alexyang\Desktop\ChromeDriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:152)
+	at junitpack.junit_camera_setting.Camera_Setting(junit_camera_setting.java:40)
+</error>
+
+      </testcase>
+
+      <testcase classname="junitpack.junit_oauth_account_setting" name="Account_Setting" time="6.482">
+          <error message="unknown error: cannot get automation extension&#xa;from chrome not reachable&#xa;  (Session info: chrome=63.0.3239.84)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 4.28 seconds&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;&#xa;System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\alexyang\AppData\Local\Temp\scoped_dir22460_15837}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: a74070fa61907af0e3558e8437d82171" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from chrome not reachable
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.28 seconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\alexyang\AppData\Local\Temp\scoped_dir22460_15837}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a74070fa61907af0e3558e8437d82171
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:882)
+	at junitpack.junit_oauth_account_setting.Account_Setting(junit_oauth_account_setting.java:51)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 17934
+Only local connections are allowed.
+十二月 19, 2017 1:44:48 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+十二月 19, 2017 1:44:50 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Detected dialect: OSS
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 26475
+Only local connections are allowed.
+十二月 19, 2017 1:44:53 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+十二月 19, 2017 1:44:55 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Detected dialect: OSS
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 44222
+Only local connections are allowed.
+十二月 19, 2017 1:45:02 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+十二月 19, 2017 1:45:04 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Detected dialect: OSS
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="3" failures="0" hostname="TPE-Alex-Yang" id="1" name="ScreenshotTests" package="junitpack" skipped="0" tests="3" time="1.981" timestamp="2017-12-19T04:01:03">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="TUTK" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/Users/alexyang/Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_74\lib\resources.jar;C:\Program Files\Java\jre1.8.0_74\lib\rt.jar;C:\Program Files\Java\jre1.8.0_74\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_74\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_74\lib\jce.jar;C:\Program Files\Java\jre1.8.0_74\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_74\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_74\classes" />
+
+          <property name="ant.file.type.junitproject_kalay_vsaas_3.0" value="file" />
+
+          <property name="env.COMPUTERNAME" value="TPE-ALEX-YANG" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_74-b02" />
+
+          <property name="env.HOMEPATH" value="\Users\alexyang" />
+
+          <property name="user.name" value="alex_yang" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_74\bin" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.project.name" value="junitproject_kalay_vsaas_3.0" />
+
+          <property name="java.version" value="1.8.0_74" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.asl.log" value="Destination=file" />
+
+          <property name="env.TEMP" value="C:\Users\alexyang\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_74\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="MS950" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="ECLIPSE_HOME" value="D:/eclipse-jee-mars-2-win32-x86_64/eclipse/" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="TW" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_74" />
+
+          <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.ANDROID_HOME" value="D:\sdk\android-sdk_r24.4.1-windows" />
+
+          <property name="env.APPDATA" value="C:\Users\alexyang\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\build.xml" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.74-b02" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Users\alexyang" />
+
+          <property name="ant.library.dir" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_74" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\alexyang\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="ant.file.junitproject_kalay_vsaas_3.0" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\build.xml" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/Users/alexyang/Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+
+          <property name="user.home" value="C:\Users\alexyang" />
+
+          <property name="target" value="1.8" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_74\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_74/bin/server;C:/Program Files/Java/jre1.8.0_74/bin;C:/Program Files/Java/jre1.8.0_74/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;D:\sdk\android-sdk_r24.4.1-windows\tools;D:\sdk\android-sdk_r24.4.1-windows\platform-tools;C:\Program Files\Java\jdk1.8.0_74\bin;C:\Users\alexyang\AppData\Roaming\npm;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse;;." />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="env.USERDNSDOMAIN" value="TUTK.COM" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner junitpack.ScreenshotTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\junit\TEST-junitpack.ScreenshotTests.xml crashfile=C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\junitvmwatcher3572855578337954614.properties propsfile=C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\junit6705460233923068778.properties" />
+
+          <property name="java.class.path" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\bin;D:\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar;D:\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\cglib-nodep-3.2.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\client-combined-3.0.1-nodeps.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-codec-1.10.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-exec-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-io-2.5.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-lang3-3.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-logging-1.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\cssparser-0.9.20.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\gson-2.3.1.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\guava-19.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\hamcrest-core-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\hamcrest-library-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\htmlunit-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\htmlunit-core-js-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpclient-4.5.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpcore-4.4.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpmime-4.5.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\javax.servlet-api-3.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jetty-io-9.2.13.v20150730.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jetty-util-9.2.13.v20150730.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jna-4.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jna-platform-4.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\junit-4.12.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\neko-htmlunit-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\netty-3.5.7.Final.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\phantomjsdriver-1.3.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\sac-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-java-2.53.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-java-2.53.0-srcs.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-server-standalone-3.0.1.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\serializer-2.7.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-api-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-client-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-common-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xalan-2.7.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xercesImpl-2.11.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xml-apis-1.4.01.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.windir" value="C:\WINDOWS" />
+
+          <property name="env.LOGONSERVER" value="\\TUTKDCCC" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.ANT_HOME" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="java.io.tmpdir" value="C:\Users\alexyang\AppData\Local\Temp\" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/Users/alexyang/Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\WINDOWS" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_74\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\alexyang\AppData\Local" />
+
+          <property name="user.dir" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_74/bin/server;C:/Program Files/Java/jre1.8.0_74/bin;C:/Program Files/Java/jre1.8.0_74/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;D:\sdk\android-sdk_r24.4.1-windows\tools;D:\sdk\android-sdk_r24.4.1-windows\platform-tools;C:\Program Files\Java\jdk1.8.0_74\bin;C:\Users\alexyang\AppData\Roaming\npm;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse;" />
+
+          <property name="basedir" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="alex_yang" />
+
+          <property name="source" value="1.8" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="MS950" />
+
+          <property name="env.USERDOMAIN" value="TUTK" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="build,ScreenshotTests,junitreport" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="junitpack.ScreenshotTests" name="executeFirefoxDriver" time="1.647">
+          <error message="Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, browserName=firefox, version=, platform=ANY}], required capabilities = Capabilities [{}]&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;&#xa;System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;&#xa;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, browserName=firefox, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
+	at junitpack.ScreenshotTests.execute(ScreenshotTests.java:45)
+	at junitpack.ScreenshotTests.executeFirefoxDriver(ScreenshotTests.java:33)
+</error>
+
+      </testcase>
+
+      <testcase classname="junitpack.ScreenshotTests" name="executeInternetExplorerDriver" time="0.048">
+          <error message="Unable to create new remote session. desired capabilities = Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}], required capabilities = Capabilities [{}]&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;&#xa;System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;&#xa;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}], required capabilities = Capabilities [{}]
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
+	at junitpack.ScreenshotTests.execute(ScreenshotTests.java:45)
+	at junitpack.ScreenshotTests.executeInternetExplorerDriver(ScreenshotTests.java:37)
+</error>
+
+      </testcase>
+
+      <testcase classname="junitpack.ScreenshotTests" name="executeChrome" time="0.07">
+          <error message="Unable to create new remote session. desired capabilities = Capabilities [{browserName=chrome, version=, platform=ANY}], required capabilities = Capabilities [{}]&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;&#xa;System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;&#xa;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{browserName=chrome, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;TPE-Alex-Yang&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
+	at junitpack.ScreenshotTests.execute(ScreenshotTests.java:45)
+	at junitpack.ScreenshotTests.executeChrome(ScreenshotTests.java:41)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[十二月 19, 2017 12:01:04 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+十二月 19, 2017 12:01:05 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Falling back to original OSS JSON Wire Protocol.
+十二月 19, 2017 12:01:05 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Falling back to straight W3C remote end connection
+十二月 19, 2017 12:01:05 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+十二月 19, 2017 12:01:05 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Falling back to original OSS JSON Wire Protocol.
+十二月 19, 2017 12:01:05 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Falling back to straight W3C remote end connection
+十二月 19, 2017 12:01:05 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+十二月 19, 2017 12:01:05 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Falling back to original OSS JSON Wire Protocol.
+十二月 19, 2017 12:01:05 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Falling back to straight W3C remote end connection
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TPE-Alex-Yang" id="2" name="junit_oauth_login" package="junitpack" skipped="0" tests="1" time="100.963" timestamp="2017-12-19T07:00:02">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="TUTK" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/Users/alexyang/Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_74\lib\resources.jar;C:\Program Files\Java\jre1.8.0_74\lib\rt.jar;C:\Program Files\Java\jre1.8.0_74\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_74\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_74\lib\jce.jar;C:\Program Files\Java\jre1.8.0_74\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_74\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_74\classes" />
+
+          <property name="ant.file.type.junitproject_kalay_vsaas_3.0" value="file" />
+
+          <property name="env.COMPUTERNAME" value="TPE-ALEX-YANG" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_74-b02" />
+
+          <property name="env.HOMEPATH" value="\Users\alexyang" />
+
+          <property name="user.name" value="alex_yang" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_74\bin" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.project.name" value="junitproject_kalay_vsaas_3.0" />
+
+          <property name="java.version" value="1.8.0_74" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.asl.log" value="Destination=file" />
+
+          <property name="env.TEMP" value="C:\Users\alexyang\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_74\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="MS950" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="ECLIPSE_HOME" value="../../Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="TW" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_74" />
+
+          <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.ANDROID_HOME" value="D:\sdk\android-sdk_r24.4.1-windows" />
+
+          <property name="env.APPDATA" value="C:\Users\alexyang\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\build.xml" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.74-b02" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Users\alexyang" />
+
+          <property name="ant.library.dir" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_74" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\alexyang\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="ant.file.junitproject_kalay_vsaas_3.0" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\build.xml" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/Users/alexyang/Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+
+          <property name="user.home" value="C:\Users\alexyang" />
+
+          <property name="target" value="1.8" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_74\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_74/bin/server;C:/Program Files/Java/jre1.8.0_74/bin;C:/Program Files/Java/jre1.8.0_74/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;D:\sdk\android-sdk_r24.4.1-windows\tools;D:\sdk\android-sdk_r24.4.1-windows\platform-tools;C:\Program Files\Java\jdk1.8.0_74\bin;C:\Users\alexyang\AppData\Roaming\npm;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse;;." />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="env.USERDNSDOMAIN" value="TUTK.COM" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner junitpack.junit_oauth_login skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\junit\TEST-junitpack.junit_oauth_login.xml crashfile=C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\junitvmwatcher2603733676861125113.properties propsfile=C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\junit2287218213813917448.properties" />
+
+          <property name="java.class.path" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\bin;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\cglib-nodep-3.2.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\client-combined-3.0.1-nodeps.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-codec-1.10.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-exec-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-io-2.5.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-lang3-3.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\commons-logging-1.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\cssparser-0.9.20.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\gson-2.3.1.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\guava-19.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\hamcrest-core-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\hamcrest-library-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\htmlunit-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\htmlunit-core-js-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpclient-4.5.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpcore-4.4.4.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\httpmime-4.5.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\javax.servlet-api-3.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jetty-io-9.2.13.v20150730.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jetty-util-9.2.13.v20150730.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jna-4.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\jna-platform-4.1.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\junit-4.12.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\neko-htmlunit-2.23.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\netty-3.5.7.Final.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\phantomjsdriver-1.3.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\sac-1.3.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-java-2.53.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\selenium-java-2.53.0-srcs.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\serializer-2.7.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-api-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-client-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\websocket-common-9.2.15.v20160210.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xalan-2.7.2.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xercesImpl-2.11.0.jar;C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0\lib\xml-apis-1.4.01.jar;C:\Users\alexyang\Desktop\selenium-java-3.0.1\selenium-server-standalone-3.3.1.jar;C:\Users\alexyang\Desktop\selenium jar\selenium-html-runner-3.0.1.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.windir" value="C:\WINDOWS" />
+
+          <property name="env.LOGONSERVER" value="\\TUTKDCCC" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.ANT_HOME" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="java.io.tmpdir" value="C:\Users\alexyang\AppData\Local\Temp\" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/Users/alexyang/Desktop/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\WINDOWS" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_74\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\alexyang\AppData\Local" />
+
+          <property name="user.dir" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_74/bin/server;C:/Program Files/Java/jre1.8.0_74/bin;C:/Program Files/Java/jre1.8.0_74/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;D:\sdk\android-sdk_r24.4.1-windows\tools;D:\sdk\android-sdk_r24.4.1-windows\platform-tools;C:\Program Files\Java\jdk1.8.0_74\bin;C:\Users\alexyang\AppData\Roaming\npm;C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse;" />
+
+          <property name="basedir" value="C:\Users\alexyang\workspace\junitproject_kalay_vsaas_3.0" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\alexyang\Desktop\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="alex_yang" />
+
+          <property name="source" value="1.8" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="MS950" />
+
+          <property name="env.USERDOMAIN" value="TUTK" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="build,junit_oauth_login (2),junitreport" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="junitpack.junit_oauth_login" name="Login" time="100.773" />
+
+      <system-out><![CDATA[0.keyin Email address: Null = pass
+0_1.keyin Password: Null = pass
+1.keyin Email address: Abnormal a@a = pass
+1_1.keyin Email address: Abnormal a@a.c = pass
+1_2.keyin Email address: Abnormal a@@a.c2c = pass
+1_3.keyin Email address: Abnormal a@a@a.cc = pass
+1_4.keyin Email address: Abnormal aa.cc = pass
+1_5.keyin Email address: Abnormal abcd = pass
+2.keyin error password = pass
+3.keyin less than 8 characters password = pass
+4.keyin 1~8 password = pass
+5.keyin over 20 characters = pass
+6.The e-mail format incorrect = pass
+7.Enter resend email page = pass
+8.Enter resend email page - Null = pass
+9.Enter resend email page - a@a = pass
+9_1.Enter resend email page - a@a.c = pass
+9_2.Enter resend email page - a@@a.c2c = pass
+9_3.Enter resend email page - a@a@a.cc = pass
+9_4.Enter resend email page - aa.cc = pass
+9_5.Enter resend email page - abcd = pass
+10.Enter resend email page - right account = pass
+]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 39313
+Only local connections are allowed.
+十二月 19, 2017 3:00:03 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+十二月 19, 2017 3:00:04 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+資訊: Detected dialect: OSS
+]]></system-err>
+
+  </testsuite>
+</testsuites>
