@@ -141,7 +141,7 @@
             <classpath refid="junitproject_kalay_vsaas_3.0.classpath"/>
         </junit>
     </target>
-    <target name="junit_oauth_login (2)">
+    <target name="junit_oauth_login">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
