@@ -28,7 +28,7 @@ public class junit_oauth_login {
 	public void Login() throws Exception {
 		//System.setProperty("webdriver.gecko.driver", "C:/Users/alexyang/Desktop/driver/geckodriver.exe");
 		//System.setProperty("webdriver.ie.driver", "C:/Users/alexyang/Desktop/driver/IEDriverServer.exe");
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 		
 //		IE
 //		WebDriver driverChrome= new InternetExplorerDriver();
